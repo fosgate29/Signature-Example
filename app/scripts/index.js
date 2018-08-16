@@ -88,8 +88,16 @@ const App = {
     })
   },
 
+  toBytes32: function(i) {
+    const stringed = "0000000000000000000000000000000000000000000000000000000000000000" + i.toString(16);
+    return "0x" + stringed.substring(stringed.length - 64, stringed.length); 
+},
+
   signIt: function() {
     const toSign = document.getElementById('toSign').value
+    //const forSigning = web3.utils.utf8ToHex(toSign)
+    const test = this.toBytes32(toSign)
+    console.log(test)
     let result
     web3.personal.sign(toSign, account, function (error, res) {
       signature = res
@@ -105,6 +113,8 @@ const App = {
     const status = document.getElementById('ethStatus')
     status.innerHTML = message
   },
+
+  
 
   sendIt: function() {
     const self = this;
@@ -129,10 +139,15 @@ const App = {
 
   orderPizza: function () {
     const self = this;
-    const sentWeiAmount = parseInt(document.getElementById('sentWeiAmount'.value))
-    const sentPizzaAmount = parseInt(document.getElementById('sentPizzaAmount'.value))
+    const sentWeiAmount = parseInt(document.getElementById('sentWeiAmount').value)
+    const sentPizzaAmount = parseInt(document.getElementById('sentPizzaAmount').value)
     const friend = document.getElementById('friend').value
     const sig = document.getElementById('sig').value
+    console.log(sentWeiAmount)
+    console.log(sentPizzaAmount)
+    console.log(friend)
+    console.log(sig)
+    console.log(account)
     let pizza 
     this.setPizzaStatus('Ordering pizza...please wait')
     Pizza.deployed().then(function (instance) {
