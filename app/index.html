@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ethereum: Signing Data</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Signing Data</h1>
+  <h2>Example Truffle Dapp</h2>
+  <br>
+  <h1>Hash Data to Sign</h1>
+  <br><label for="amount">Wei Amount:</label><input type="text" id="amount" placeholder="e.g., 100"></input>
+  <br><label for="noOfPizzas">Pizza Amount:</label><input type="text" id="noOfPizzas" placeholder="e.g., 3"></input>
+  <br><br><button id="hashIt" onclick="App.hashIt()">Hash Data</button>
+  <span id="hashStatus"></span>
+  <br><br>
+  <h1>Sign Data</h1>
+  <br><label for="toSign">To Address:</label><input type="text" id="toSign" placeholder="e.g., 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"></input>
+  <br><br><button id="signIt" onclick="App.signIt()">Sign Data</button>
+  <br><br>
+  <h1>Send ETH for Pizzas</h1>
+  <br><label for="sendAmount">Wei Amount To Send:</label><input type="text" id="sendAmount" placeholder="e.g., 100"></input>
+  <br><br><button id="sendIt" onclick="App.sendIt()">Send ETH</button>  
+  <span id="ethStatus"></span>
+  <br><br>
+  <h1>Order Pizza</h1>
+  <br><label for="sentWeiAmount">Sent Wei Amount:</label><input type="text" id="sentWeiAmount" placeholder="e.g., 100"></input>
+  <br><label for="sentPizzaAmount">Sent Pizza Amount:</label><input type="text" id="sentPizzaAmount" placeholder="e.g., 3"></input>
+  <br><label for="friend">Friend:</label><input type="text" id="friend" placeholder="e.g., 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"></input>
+  <br><label for="sig">Signature:</label><input type="text" id="sig" placeholder="e.g., 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae...."></input>
+  <br><br><button id="orderPizza" onclick="App.orderPizza()">Send MetaCoin</button>
+  <br><br>
+  <span id="pizzaStatus"></span>
+  <br>
+</body>
+</html>
