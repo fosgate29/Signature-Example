@@ -6,7 +6,6 @@ contract Pizza {
     
     using ECRecovery for bytes32;
 
-    event DataSigned(bytes32 _theData);
     event PizzaBought(uint256 _noOfPizzas, uint256 _wei);
     
     //Our fallback function will be payable so that we can send ETH to the contract
@@ -36,8 +35,8 @@ contract Pizza {
         view
         returns (bytes32)
     {
-        emit DataSigned(keccak256(_noOfPizzas, _amount));
         return keccak256(_noOfPizzas, _amount);      
     }
     
 }
+
