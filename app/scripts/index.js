@@ -72,7 +72,7 @@ const App = {
 
   hashIt: function () {
     const self = this; 
-    const amount = parseInt(document.getElementById('amount'.value));
+    const amount = parseInt(document.getElementById('amount').value);
     const noOfPizzas = parseInt(document.getElementById('noOfPizzas').value);
     this.setHashStatus('Calculating the hash...please wait');
     let pizza; 
