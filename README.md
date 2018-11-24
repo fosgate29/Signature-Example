@@ -1,10 +1,33 @@
 # Assinatura-Exemplo
 Um exemplo para mostrar o uso de assinaturas com Metamask usando Smart Contracts. O exemplo consiste em simular o pedido de uma pizza entre amigos.
 
-Execute `npm install`
+# Dependências
+Já tem nodejs instalado? Não? 
 
-Use testrpc e execute `truffle migrate` para fazer deploy do Smart Contract
+https://nodejs.org/en/download/
 
-Execute `npm run dev` e abra localhost:8080 para ver a Dapp.
+Instalar Truffle - Ferramenta de desenvolvimento Ethereum
+`npm install -g truffle`
+
+Instalar Metamask - plugin Chrome para trabalhar com wallets
+https://metamask.io/
+
+Instalar ganache-cli - Ganache simula uma rede Ethereum para testes. 
+`npm install -g ganache-cli`
+
+1o. passo:
+git clone https://github.com/fosgate29/Signature-Example.git
+
+Abrir um novo terminal e executar `ganache-cli`
+
+Ir pra pasta Signature-Example e executar `npm install` e aguardar
+
+Executar `truffle migrate --development --reset` (vai enviar o código compilado do Smart Contract pro Ganache - que é a rede de teste)
+
+Abrir browser e desbloquear Metamask.
+Pegar a seed (palavras) e importar a conta da rede privada. Logo que o ganache inicia, ele coloca na tela seed e private keys das contas.
+
+Executar `npm run dev` e abrir a ṕágina localhost:8080
+
 
 Usando Metamask, você consegue interagir com o Dapp a assinar transações. Para recuperar o hash para ser utilizado quando for assinar, capture o hash do Event da transação que estará no log (F12). Para recuperar o resultado da assinatura ao pedir a pizza, recupere do log do console também.
