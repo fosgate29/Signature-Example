@@ -1,10 +1,10 @@
-# Signature-Example
-An example to show how to use signatures with Metamask via a smart contract used to agree on ordering Pizza. 
+# Assinatura-Exemplo
+Um exemplo para mostrar o uso de assinaturas com Metamask usando Smart Contracts. O exemplo consiste em simular o pedido de uma pizza entre amigos.
 
-Run `npm install`
+Execute `npm install`
 
-Use testrpc and run `truffle migrate` to deploy contracts. 
+Use testrpc e execute `truffle migrate` para fazer deploy do Smart Contract
 
-Run `npm run dev` and open localhost:8080 to view dapp. 
+Execute `npm run dev` e abra localhost:8080 para ver a Dapp.
 
-With Metamask, you can interact with the Dapp and sign transactions. To grab hash results to be used for signing, grab to the hash from the event of the transaction in the console log (F12). To grab signature results to be used for ordering pizza, grabs the bytes from the console log as well.
+Usando Metamask, você consegue interagir com o Dapp a assinar transações. Para recuperar o hash para ser utilizado quando for assinar, capture o hash do Event da transação que estará no log (F12). Para recuperar o resultado da assinatura ao pedir a pizza, recupere do log do console também.
