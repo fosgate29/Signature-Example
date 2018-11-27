@@ -45,4 +45,4 @@ Usando Metamask, você consegue interagir com o Dapp a assinar transações. Par
 Primeiro, uns dos amigos seleciona o valor a ser gasto e a quantidade de pizzas e faz um hash destes valores. Depois, transfere o valor para o Smart Contract.
 Então, usando hash gerado, assine utilizando Metamask.
 
-Com esta assinatura, o outro amigo consegue fazer o pedido da pizza e recuperar o valor que está no smart contract. PAra isto, ele precisa pedir o mesmo valor de pizzas e a mesma quantidade e passar o endereço (Address) do amigo que assinou o hash.
+Com esta assinatura, o outro amigo consegue fazer o pedido da pizza e recuperar o valor que está no smart contract. Para isto, ele precisa pedir o mesmo valor de pizzas e a mesma quantidade e passar o endereço (Address) do amigo que assinou o hash.
