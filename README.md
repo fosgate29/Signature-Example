@@ -1,3 +1,8 @@
+## Bootcamp Blockchain + Ethereum
+
+Material utilizado no bootcamp no [IFNMG](https://www.ifnmg.edu.br/) realizado no dia 27/11/2018
+
+
 # Assinatura-Exemplo
 Um exemplo para mostrar o uso de assinaturas com Metamask usando Smart Contracts. O exemplo consiste em simular o pedido de uma pizza entre amigos.
 
@@ -46,3 +51,10 @@ Primeiro, uns dos amigos seleciona o valor a ser gasto e a quantidade de pizzas 
 Então, usando hash gerado, assine utilizando Metamask.
 
 Com esta assinatura, o outro amigo consegue fazer o pedido da pizza e recuperar o valor que está no smart contract. Para isto, ele precisa pedir o mesmo valor de pizzas e a mesma quantidade e passar o endereço (Address) do amigo que assinou o hash.
+
+
+
+# Material de suporte
+
+- [PPT Ethereum bootcamp IFNMG](Ethereum bootcamp IFNMG.pdf): Slides da apresentação
+- [Links úteis](linksUteis.md):  Links de apoio ao conteúdo falado durante o bootcamp
