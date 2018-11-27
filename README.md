@@ -56,5 +56,5 @@ Com esta assinatura, o outro amigo consegue fazer o pedido da pizza e recuperar 
 
 # Material de suporte
 
-- [PPT Ethereum bootcamp IFNMG](Ethereum bootcamp IFNMG.pdf): Slides da apresentação
+- [PPT Ethereum bootcamp IFNMG](EthereumbootcampIFNMG.pdf): Slides da apresentação
 - [Links úteis](linksUteis.md):  Links de apoio ao conteúdo falado durante o bootcamp
