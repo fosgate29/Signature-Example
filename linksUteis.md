@@ -1,4 +1,6 @@
-teste hash online:
+# Links úteis
+
+Teste hash online:
 
 http://onlinemd5.com/
 
@@ -14,7 +16,7 @@ http://osxdaily.com/2012/01/30/encrypt-and-decrypt-files-with-openssl/
 
 https://gist.github.com/ezimuel/3cb601853db6ebc4ee49
 
-Sobre seeds
+Sobre seeds (sobre como é criado uma nova conta/address no Ethereum)
 https://silentcicero.gitbooks.io/pro-tips-for-ethereum-wallet-management/ethereum-wallet-basics/using-seed-phrases-to-create-ethereum-accounts.html
 
 Gossip protocol
@@ -23,7 +25,9 @@ https://en.wikipedia.org/wiki/Gossip_protocol
 Remix:
 https://remix.ethereum.org
 
-consensys intro - https://www.youtube.com/watch?time_continue=30&v=EFUFQL_GH5A
+Consensys intro - https://www.youtube.com/watch?time_continue=30&v=EFUFQL_GH5A
+
+Probleminha - Splitter
 
 there are 3 people: Alice, Bob and Carol.
 we can see the balance of the Splitter contract on the Web page.
@@ -34,15 +38,14 @@ Alice can use the Web page to split her ether.
 Zero proof of knowledge:
 https://hackernoon.com/eli5-zero-knowledge-proof-78a276db9eff
 
-outro exemplo do zero proof of knowledge 
+Outro exemplo do zero proof of knowledge 
 é uma caverna circular. e no meio dela tem uma porta
 se vc entrar nela e sair do outro lado, isto prova
 que vc sabe o segredo da porta sem precisar revelar o segredo.
 
-isto é útil pro blockchain por questões de privacidade. Quando vc envia
+Isto é útil pro blockchain por questões de privacidade. Quando vc envia
 um dinheiro pra alguem, vc não precisa revelar o total que vc
 tem.
 
-
-Entrevista Safiri
+Entrevista Safiri - funcionário da ConsenSys
 https://www.youtube.com/watch?v=G2SFZESyaVI
